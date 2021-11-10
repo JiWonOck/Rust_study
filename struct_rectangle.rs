@@ -52,7 +52,7 @@ struct Rectangle {
 fn main() {
     let rect1 = Rectangle { length: 50, width: 30 };
 
-    println!("rect1 is {:?}", rect1);
+    println!("rect1 is {:?}", rect1);      //{:?} 대신 {:#?}사용하면 length랑 width가 줄바꿈해서 보여줌
 }
 
 
